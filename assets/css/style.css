@@ -4,7 +4,7 @@
   
   body {
     font-family: Arial;
-    margin: 0;
+    margin: 10px;
   }
   
   header {
@@ -34,7 +34,7 @@
     text-align:center;
     justify-content:space-between;
     align-items:center;
-    margin-top: -30px;
+    margin-top: -50px;
     margin-left: -15px;
   }
   
@@ -127,9 +127,12 @@
   .card {
   float: left;
   width: 33%;
-  padding: 5px;
   background-color: white;
+  margin-bottom: 60px;
+  border: 3px solid black;
   }
+
+
 
   .banner img {
     padding: 5px;
@@ -138,7 +141,10 @@
 
   .webpage img {
     border: 3px solid black;
-    width: 100%;  
+    width: 100%; 
+    margin-bottom: 60px; 
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   #webpage-name {
@@ -177,7 +183,7 @@
     }
 
     nav a{
-      color:goldenrod;
+      margin-top: 80px;
     }
     
     .mainText {
