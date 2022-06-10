@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  header {
+    padding: 40px;
+    background-image: url(../images/Banners/paint-banner.png);
+    color: #fff;
+    background-size: cover;
+    height: 250px;
+  }
+  
+  header span{
+      background-color: grey;
+  }
+
+  footer span{
+    color: black;
+  }
+
+  .section-title{
+      font-size: 50px;
+      padding-right: 1rem;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap:flex;
+    text-align:center;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: -30px;
+    margin-left: -15px;
+  }
+  
+  nav .nav-links{
+    display:flex;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+
+  
+  nav a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: underline;
+    display:block;
+    padding:15px 15px;
+  
+  }
+  
+  nav a:hover{
+    text-decoration: none;
+    transform: scale(1.25);
+  }
+  
+  .about{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+    padding-bottom: 5px;
+    
+  }
+  
+  .section-content{
+      padding: 3rem;
+      border-left: 5px solid black;
+  }
+  .work{
+    justify-content:space-between;
+    align-items:top;
+    margin-top:0;
+  }
+  
+
+  aside {
+    flex: 1;
+    background-color: #b9c6ae;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  .hero {
+    background-image: url("../images/banner.jpeg");
+    height: 600px;
+    width: 100%;
+    background-size: auto;
+    background-position: center;
+    border: 3px solid gray;
+  }
+  
+  .hero h2{
+      float: right;
+      margin-top: 30%;
+      margin-right: 5%;
+      background-color: grey;
+  }
+  
+  .hero img{
+      border: 5px solid gray
+  }
+  
+  .work-title{
+    font-size: 50px;
+    text-align:center;
+    text-decoration: underline;
+
+  }
+  
+  .images{
+    padding-left:5rem;
+  }
+  
+  .card {
+  float: left;
+  width: 33%;
+  padding: 5px;
+  background-color: white;
+  }
+
+  .banner img {
+    padding: 5px;
+    width: 100%;
+  }
+
+  .webpage img {
+    border: 3px solid black;
+    width: 100%;  
+  }
+
+  #webpage-name {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+  }
+ 
+  .card img {
+    width: 100%;
+  }
+  
+  .text {
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+    background: white;
+    padding-left: 6%;
+  }
+  
+  .mainText {
+    
+    position: relative;
+    bottom: 9rem;
+    left: 2rem;
+    background: white;
+    padding-left: 6%;
+    max-width: 15rem;
+    font-size: 1.5rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+
+    nav a{
+      color:goldenrod;
+    }
+    
+    .mainText {
+      left: 25rem;
+    }
+  }
+  
