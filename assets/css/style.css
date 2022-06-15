@@ -5,6 +5,7 @@
   body {
     font-family: Arial;
     margin: 10px;
+    background-color: white;
   }
   
   header {
@@ -12,7 +13,8 @@
     background-image: url(../images/Banners/eye-banner.png);
     color: #fff;
     background-size: cover;
-    height: 260px;
+    height: 270px;
+    margin-bottom: 30px;
   }
   
   header span{
